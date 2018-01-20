@@ -41,5 +41,18 @@
     position: relative;
     top: 50%;
     left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-100%) ;
+}
+
+.plateau {
+    position: relative;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+}
+
+.zoneCommandes {
+    position: absolute;
+    top: 85%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
 }
